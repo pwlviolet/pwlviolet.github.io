@@ -29,13 +29,153 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="ava" type="application/atom+xml">
+<style type="text/css" lang="css">
+    #loading-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        width: 100vw;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFF;
+        text-align: center;
+        /* loader页面消失采用渐隐的方式*/
+        -webkit-transition: opacity 1s ease;
+        -moz-transition: opacity 1s ease;
+        -o-transition: opacity 1s ease;
+        transition: opacity 1s ease;
+    }
+    .loading-image{
+        width: 120px;
+        height: 50px;
+        transform: translate(-50%);
+    }
+    
+    .loading-image div:nth-child(2) {
+        -webkit-animation: pacman-balls 1s linear 0s infinite;
+        animation: pacman-balls 1s linear 0s infinite
+    }
+
+    .loading-image div:nth-child(3) {
+        -webkit-animation: pacman-balls 1s linear .33s infinite;
+        animation: pacman-balls 1s linear .33s infinite
+    }
+
+    .loading-image div:nth-child(4) {
+        -webkit-animation: pacman-balls 1s linear .66s infinite;
+        animation: pacman-balls 1s linear .66s infinite
+    }
+
+    .loading-image div:nth-child(5) {
+        -webkit-animation: pacman-balls 1s linear .99s infinite;
+        animation: pacman-balls 1s linear .99s infinite
+    }
+    
+   .loading-image div:first-of-type {
+        width: 0;
+        height: 0;
+        border: 25px solid #49b1f5;
+        border-right-color: transparent;
+        border-radius: 25px;
+        -webkit-animation: rotate_pacman_half_up .5s 0s infinite;
+        animation: rotate_pacman_half_up .5s 0s infinite;
+    }
+    .loading-image div:nth-child(2) {
+        width: 0;
+        height: 0;
+        border: 25px solid #49b1f5;
+        border-right-color: transparent;
+        border-radius: 25px;
+        -webkit-animation: rotate_pacman_half_down .5s 0s infinite;
+        animation: rotate_pacman_half_down .5s 0s infinite;
+        margin-top: -50px;
+    }
+    @-webkit-keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
+
+    @keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
+
+    @-webkit-keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
+
+    @keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
+    
+    @-webkit-keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
+
+    @keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
+    
+   
+    .loading-image div:nth-child(3),
+    .loading-image div:nth-child(4),
+    .loading-image div:nth-child(5),
+    .loading-image div:nth-child(6){
+        background-color: #49b1f5;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        margin: 2px;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        transform: translateY(-6.25px);
+        top: 25px;
+        left: 100px;
+    }
+    .loading-text{
+        margin-bottom: 20vh;
+        text-align: center;
+        color: #2c3e50;
+        font-size: 2rem;
+        box-sizing: border-box;
+        padding: 0 10px;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    @media only screen and (max-width: 500px) {
+         .loading-text{
+            font-size: 1.5rem;
+         }
+    }
+    .fadeout {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    /* logo出现动画 */
+    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
+    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
+ </style>
+ <script>
+(function () {
+    const loaded = function(){
+       setTimeout(function(){
+            const loader = document.getElementById("loading-container");
+            loader.className="fadeout" ;//使用渐隐的方法淡出loading page
+            // document.getElementById("body-wrap").style.display="flex";
+            setTimeout(function(){
+                loader.style.display="none";
+            },1000); 
+        },1000);//强制显示loading page 1s  
+    };
+    loaded();
+})()
+ </script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="ava" type="application/atom+xml">
 </head>
 
 
 
 
-<body>
+
+ <div id="loading-container">
+     <p class="loading-text">玩命加载中 . . . </p> 
+     <div class="loading-image">
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div> 
+         <div></div>
+     </div>
+ </div><body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -357,7 +497,7 @@
     .friends-container .tag-title {
         margin-bottom: 10px;
         color: #3C4858;
-        font-size: 1.75rem;
+        font-size: 1.3rem;
         font-weight: 400;
     }
 
@@ -554,16 +694,16 @@
                             <div class="card frind-card1">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="https://www.lixl.cn/medias/avatar.jpg" alt="img">
+                                        <img src="https://p3-pc.douyinpic.com/img/tos-cn-avt-0015/136904acceafb4742139351d268a7c77~c5_100x100.jpeg?from=2956013662" alt="img">
                                         <div>
-                                            <h1 class="friend-name">悟尘记</h1>
-                                            <p style="position: relative;top: -35px;">人生就是一场修行，上善若水，厚德载物。</p>
+                                            <h1 class="friend-name">嘉然今天吃什么</h1>
+                                            <p style="position: relative;top: -35px;">关注嘉然，顿顿解馋。</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="https://www.lixl.cn/" target="_blank"
+                                        <a href="https://space.bilibili.com/672328094" target="_blank"
                                             class="button button-glow button-rounded button-caution">
-                                            前去参观
+                                            前去关注
                                         </a>
                                     </div>
                                 </div>
@@ -575,16 +715,16 @@
                             <div class="card frind-card2">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="https://wiki.hyperledger.org/download/attachments/2392069/fabric?version=1&modificationDate=1540928132000&api=v2" alt="img">
+                                        <img src="https://p3-pc.douyinpic.com/img/tos-cn-i-0813/148d60f46a594704845e2b7a34d27ed0~c5_100x100.jpeg?from=2956013662" alt="img">
                                         <div>
-                                            <h1 class="friend-name">Fabric</h1>
-                                            <p style="position: relative;top: -35px;">A Blockchain Platform for the Enterprise</p>
+                                            <h1 class="friend-name">向晚大魔王</h1>
+                                            <p style="position: relative;top: -35px;">一只想要实现梦想的水母捏</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="https://hyperledger-fabric.readthedocs.io/en/master/" target="_blank"
+                                        <a href="https://space.bilibili.com/672346917" target="_blank"
                                             class="button button-glow button-rounded button-caution">
-                                            前去学习
+                                            前去关注
                                         </a>
                                     </div>
                                 </div>
@@ -596,16 +736,79 @@
                             <div class="card frind-card3">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="https://www.bootcdn.cn/assets/img/maoyun.svg" alt="img">
+                                        <img src="https://p3-pc.douyinpic.com/img/tos-cn-avt-0015/8a25730be97e4a7ceab7be10cd7f5542~c5_100x100.jpeg?from=2956013662" alt="img">
                                         <div>
-                                            <h1 class="friend-name">BootCDN</h1>
-                                            <p style="position: relative;top: -35px;">稳定、快速、免费的前端开源项目 CDN 加速服务。</p>
+                                            <h1 class="friend-name">珈乐Carol</h1>
+                                            <p style="position: relative;top: -35px;">唱歌很好听的小姐姐捏。</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="https://www.bootcdn.cn/" target="_blank"
+                                        <a href="https://space.bilibili.com/351609538" target="_blank"
                                             class="button button-glow button-rounded button-caution">
-                                            前去加速
+                                            前去关注
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card4">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="https://i1.hdslb.com/bfs/face/8895c87082beba1355ea4bc7f91f2786ef49e354.jpg@128w_128h_1o.webp" alt="img">
+                                        <div>
+                                            <h1 class="friend-name">乃琳Queen</h1>
+                                            <p style="position: relative;top: -35px;">坏女人QWQ。</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://space.bilibili.com/672342685" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前去关注
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card5">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="https://i2.hdslb.com/bfs/face/668af440f8a8065743d3fa79cfa8f017905d0065.jpg@128w_128h_1o.webp" alt="img">
+                                        <div>
+                                            <h1 class="friend-name">贝拉kira</h1>
+                                            <p style="position: relative;top: -35px;">武(舞)力很高捏。</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://space.bilibili.com/672353429" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前去关注
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card6">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="https://i2.hdslb.com/bfs/face/d399d6f5cf7943a996ae96999ba3e6ae2a2988de.jpg@128w_128h_1o.webp" alt="img">
+                                        <div>
+                                            <h1 class="friend-name">QvQ</h1>
+                                            <p style="position: relative;top: -35px;">一只蛆虫嘉心糖。</p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://space.bilibili.com/15668000" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            emmmm
                                         </a>
                                     </div>
                                 </div>
@@ -829,6 +1032,10 @@ $(function () {
     </a>
 </div>
 
+<!--动态线条背景-->
+<script type="text/javascript"
+color="154 200 226" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
 
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>
