@@ -280,6 +280,17 @@
     
   </li>
   
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/list" class="waves-effect waves-light">
+      
+      <i class="fa fa-list" style="zoom: 0.6;"></i>
+      
+      <span>其他</span>
+    </a>
+    
+  </li>
+  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -390,6 +401,17 @@
 			    <i class="fa-fw fas fa-image"></i>
 			
 			相册
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/list" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fa fa-list"></i>
+			
+			其他
 		</a>
           
         </li>
@@ -628,7 +650,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3
+                    458
                 </div>
                 
 
@@ -648,7 +670,74 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="C-sharp-一"><a href="#C-sharp-一" class="headerlink" title="C sharp(一)"></a>C sharp(一)</h1>
+                <h1 id="C-sharp-一"><a href="#C-sharp-一" class="headerlink" title="C sharp(一)"></a>C sharp(一)</h1><p>编译:高级语言→汇编语言→机器指令。</p>
+<p>tip:C#类型均继承自一个object类型;</p>
+<h4 id="一-变量的定义方式"><a href="#一-变量的定义方式" class="headerlink" title="一.变量的定义方式"></a>一.变量的定义方式</h4><p>变量的定义方式:</p>
+<pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">&#x2F;&#x2F;typename(类型名)   varName(变量名)&#x3D; initval(参数)
+&#x2F;&#x2F;注意: uint 大小4b 表示无符号整数
+&#x2F;&#x2F;      char 存储单个字符  char a&#x3D;&#39;s&#39;;
+&#x2F;&#x2F;      string 字符串     string b&#x3D;&quot;hello , world &quot;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h4 id="二-数组-t"><a href="#二-数组-t" class="headerlink" title="二.数组(t[])"></a>二.数组(t[])</h4><p>数组的定义:</p>
+<pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">&#x2F;&#x2F; int[] ary&#x3D;new int[10];
+&#x2F;&#x2F; 类型[]数组名称&#x3D;new类型数组大小;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>数组的访问和设置:</p>
+<pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">ary[0]&#x3D;3       &#x2F;&#x2F;ary数组第一个数是3
+int inval&#x3D;ary[3]   &#x2F;&#x2F;把数组的第四个数赋值给inval;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h4 id="三-类型互转"><a href="#三-类型互转" class="headerlink" title="三.类型互转"></a>三.类型互转</h4><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">&#x2F;*
+  &#x2F;&#x2F; double a&#x3D;6.28 float b&#x3D;3.14f
+  float c  &#x3D; (float) a; &#x2F;&#x2F;显式类型转换
+  double d &#x3D; b    &#x2F;&#x2F;隐式类型转换
+  int e &#x3D;(int) a   &#x2F;&#x2F; e&#x3D;6
+  *&#x2F;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>数值型和string互转:</p>
+<pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">&#x2F;*         &#x2F;&#x2F;字符转数字
+        string a &#x3D; &quot;711&quot;;
+        int val1 &#x3D; int.Parse(a);
+        Console.WriteLine(val1);    &#x2F;&#x2F;711
+        long val2 &#x3D; long.Parse(a); 
+        Console.WriteLine(val2);&#x2F;&#x2F;711
+     
+        
+           &#x2F;&#x2F;数字转字符
+        double val&#x3D;6.28;
+        string val3 &#x3D; val.ToString();
+        Console.WriteLine(val3);&#x2F;&#x2F;6.28
+     <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="四-字符串格式化"><a href="#四-字符串格式化" class="headerlink" title="四.字符串格式化"></a>四.字符串格式化</h4><pre class="line-numbers language-C#" data-language="C#"><code class="language-C#">&#x2F;*      string c &#x3D; &quot;add&quot;;
+        string d &#x3D; c + &quot;to&quot; + b;
+        string e &#x3D;$&quot;&#123;c&#125;to&#123;b&#125;&quot;;
+        Console.WriteLine(d);&#x2F;&#x2F;addto6
+        Console.WriteLine(e);&#x2F;&#x2F;addto6
+                                 *&#x2F;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="五-字符串接口"><a href="#五-字符串接口" class="headerlink" title="五.字符串接口"></a>五.字符串接口</h4><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">&#x2F;*
+        string valstr&#x3D;&quot;hello,world&quot;;
+                       012345678910
+        int length&#x3D;valstr.length  &#x2F;&#x2F;字符串长度为9
+        int index&#x3D;valstr.indexof(&quot;llo&quot;) &#x2F;&#x2F;index&#x3D;2
+        string strResult&#x3D;valstr.replace(&quot;hello&quot;,&quot;你好&quot;) &#x2F;&#x2F;&quot;你好，world&quot;
+        string substr&#x3D;valstr.substring(6,2)&#x2F;&#x2F;下标为6长度为2     wo
+        
+        
+        length :字符串长度
+        indexof：查找第一个匹配项
+        replace:替换指定内容
+        substring:求指定下标指定长度
+        
+
+
+*&#x2F;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>+++</p>
+<p>—continue—-</p>
+
                 
             </div>
             <hr/>
@@ -757,18 +846,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/9518.html">
+                <a href="/posts/38a3.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="C sharp">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="renpy">
                         
-                        <span class="card-title">C sharp</span>
+                        <span class="card-title">renpy</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -778,27 +866,22 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-04
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-09-05
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/C-sharp%E5%9F%BA%E7%A1%80/" class="post-category">
-                                    C sharp基础
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Cai Bai
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/C-sharp/">
-                        <span class="chip bg-color">C sharp</span>
+                    <a href="/tags/renpy/">
+                        <span class="chip bg-color">renpy</span>
                     </a>
                     
                 </div>
