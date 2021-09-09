@@ -34,6 +34,32 @@
   </entry>
   
   <entry>
+    <title>html 笔记</title>
+    <link href="https://pwlviolet.github.io/posts/ad16.html"/>
+    <id>https://pwlviolet.github.io/posts/ad16.html</id>
+    <published>2021-09-09T02:42:07.000Z</published>
+    <updated>2021-09-09T08:18:35.386Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;CSS伪类用于向某些选择器添加特殊的效果。&lt;/p&gt;
+&lt;p&gt;:active 向被激活的元素添加样式。&lt;br&gt;:focus 向拥有键盘输入焦点的元素添加样式。&lt;br&gt;:hover 当鼠标悬浮在元素上方时，向元素添加样式。&lt;br&gt;:link</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://pwlviolet.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="html" scheme="https://pwlviolet.github.io/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
     <title>C sharp two</title>
     <link href="https://pwlviolet.github.io/posts/8a3a.html"/>
     <id>https://pwlviolet.github.io/posts/8a3a.html</id>
