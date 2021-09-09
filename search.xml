@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>C sharp three</title>
+      <link href="/posts/aeef.html"/>
+      <url>/posts/aeef.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> C sharp基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C sharp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C sharp two</title>
+      <link href="/posts/8a3a.html"/>
+      <url>/posts/8a3a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="C-sharp-二"><a href="#C-sharp-二" class="headerlink" title="C sharp(二)"></a>C sharp(二)</h1><h4 id="一-class和struct"><a href="#一-class和struct" class="headerlink" title="一.class和struct"></a>一.class和struct</h4><p><strong>Class</strong></p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">using System;class Dog             &#x2F;&#x2F;定义一个狗类&#123;    int age;    public string name;    public const int maxage&#x3D;100;   &#x2F;&#x2F;公共常量    public static bool swim&#x3D;true; &#x2F;&#x2F;静态变量    public static void Write()    &#123;        Console.WriteLine(&quot;嘉然小姐的狗捏&quot;);    &#125;&#125;Dog dog&#x3D;new dog();dog.name&#x3D;&quot;嘉心糖&quot;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>partical修饰符</p><p>第一个cs文件</p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public partial class A&#123;    int a1;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>第二个cs文件</p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public partial class A&#123;    int a2;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>等于</p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public class A&#123;    int a1;    int a2;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">partical class Dog&#123;    public void SetAge(int value)    &#123;        this.age&#x3D;value;    &#125;    public static SetAge(Dog _this,int value)    &#123;        _this.age&#x3D;value;    &#125;                                &#x2F;&#x2F;静态方法属于类，非静态方法属于变量    public Dog()    &#123;        this.age&#x3D;21;        this.name&#x3D;&quot;&quot;;    &#125;    public Dog(string name)    &#123;        this.age&#x3D;21;        this.name&#x3D;name;    &#125; &#x2F;&#x2F;构造函数可以理解为初始化,无返回值。&#125;Dog dog0&#x3D;new Dog();Dog dog1&#x3D;new Dog(&quot;嘉心糖&quot;);Dog dog2&#x3D;new Dog(&quot;顶碗人&quot;);Dog.SetAge(dog0,20);&#x2F;&#x2F;静态函数dog0.SetAge(20);&#x2F;&#x2F;调用函数<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="Struct"><a href="#Struct" class="headerlink" title="Struct"></a>Struct</h4><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">struct Dog2&#123; &#x2F;&#x2F;格式同class   &#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>Struct是值类型，class是引用类型</p><p>struct 在栈中进行内存分配，函数调用完后回收，class是在堆中分配，在C#运行中回收。</p><p>函数调用过程中，class复制地址，即复制后的变量数值变了，复制前的也要变。struct是复制数据，不影响复制前的。</p><p>如果想要struct也可以被修改，则加个ref。</p><h4 id="二-继承"><a href="#二-继承" class="headerlink" title="二.继承"></a>二.继承</h4><p>class B:A{</p><p>} </p><p>类型B继承自类型A，A叫做父类，B叫做子类</p><p>B从A中继承属性和方法。</p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">using system;partical class Hero&#123;    int health；    int power;    public Hero&#123;        this.health&#x3D;100；    &#125;    public void heal&#123;        health +&#x3D;10；    &#125;    public void Attack    &#123;        Console.WriteLine($&quot;&#123;name&#125;使用水溅跃，无事发生&quot;);    &#125;&#125;class JiaXintang : Hero&#123;    public override heal&#123;health +&#x3D;100;&#x2F;&#x2F;嘉心糖恢复的更快捏    &#125;    public void skill1&#123;        this.power&#x3D;100;        this.Attack;    &#125;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>父类引用可以存储子类对象:</p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">Hero peopele1&#x3D;new JiaXintang();&#x2F;&#x2F;嘉心糖是英雄，但英雄不一定是嘉心糖<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>所有类型的基类System.Object</p><p>public class object{</p><p>}</p><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> C sharp基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C sharp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>renpy</title>
       <link href="/posts/38a3.html"/>
       <url>/posts/38a3.html</url>
