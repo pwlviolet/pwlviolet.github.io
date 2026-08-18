@@ -1,0 +1,10 @@
+{
+  "width": 16,
+  "height": 16,
+  "depth": 16,
+  "channels": 4,
+  "type": "uint8",
+  "voxelOrder": "x-fastest,y,z",
+  "atlasColumns": 8,
+  "atlasRows": 2
+}
