@@ -1,0 +1,434 @@
+{
+  "revision": 7,
+  "sourceSHA256": "1d7361bd5fd81356e7b0099de9f22471d133099071c9d52a314a6cad26e583d9",
+  "glbBytesUnchanged": true,
+  "instancesSHA256": "7d5c1ce055ee2be60ed47b0c72467a11057173b90a89d9f3b52ac116f91047c1",
+  "instanceLayoutByteIdentical": true,
+  "allInstanceCount": 451,
+  "replacedInstanceCount": 3,
+  "flowerInstances": [
+    {
+      "id": "lotus_flower__0133",
+      "prototypeId": "lotus_flower",
+      "position": [
+        -4.5,
+        -0.02199999988079071,
+        6.699999809265137
+      ],
+      "quaternion": [
+        0.05054172873497009,
+        -0.9707977175712585,
+        -0.09107162058353424,
+        0.21610945463180542
+      ],
+      "scale": [
+        1.0,
+        1.1200001239776611,
+        0.9999999403953552
+      ],
+      "matrix": [
+        -0.901484489440918,
+        -0.13749447464942932,
+        0.41039130091667175,
+        0.0,
+        -0.06582096219062805,
+        1.095699429512024,
+        0.22250965237617493,
+        0.0,
+        -0.4288029670715332,
+        0.1549791544675827,
+        -0.8900052905082703,
+        0.0,
+        -4.5,
+        -0.02199999988079071,
+        6.699999809265137,
+        1.0
+      ],
+      "color": [
+        0.9440069388206838,
+        0.9833405612715457,
+        0.9538403444333993
+      ],
+      "group": "flowers"
+    },
+    {
+      "id": "lotus_flower__0136",
+      "prototypeId": "lotus_flower",
+      "position": [
+        7.349999904632568,
+        -0.02199999988079071,
+        5.099999904632568
+      ],
+      "quaternion": [
+        0.08895491063594818,
+        0.5127391219139099,
+        0.007218319457024336,
+        0.8538931608200073
+      ],
+      "scale": [
+        0.8299999833106995,
+        1.0799999237060547,
+        0.8299999833106995
+      ],
+      "matrix": [
+        0.39349719882011414,
+        0.08594539016485214,
+        -0.72572261095047,
+        0.0,
+        0.08520548790693283,
+        1.0627954006195068,
+        0.1720636785030365,
+        0.0,
+        0.7278544306755066,
+        -0.11994640529155731,
+        0.3804481625556946,
+        0.0,
+        7.349999904632568,
+        -0.02199999988079071,
+        5.099999904632568,
+        1.0
+      ],
+      "color": [
+        0.9344260650004589,
+        0.9733604843754781,
+        0.9441596698442137
+      ],
+      "group": "flowers"
+    },
+    {
+      "id": "lotus_flower__0139",
+      "prototypeId": "lotus_flower",
+      "position": [
+        -7.0,
+        -0.02199999988079071,
+        -8.699999809265137
+      ],
+      "quaternion": [
+        0.021470967680215836,
+        -0.07635770738124847,
+        0.018400296568870544,
+        0.9966794848442078
+      ],
+      "scale": [
+        0.6499999761581421,
+        0.7900000214576721,
+        0.6499999761581421
+      ],
+      "matrix": [
+        0.6419801712036133,
+        0.021709643304347992,
+        0.09944900870323181,
+        0.0,
+        -0.031566303223371506,
+        0.7887367010116577,
+        0.03159157559275627,
+        0.0,
+        -0.09842181950807571,
+        -0.029646078124642372,
+        0.641821026802063,
+        0.0,
+        -7.0,
+        -0.02199999988079071,
+        -8.699999809265137,
+        1.0
+      ],
+      "color": [
+        0.7477533129878342,
+        0.778909701028994,
+        0.7555424099981242
+      ],
+      "group": "flowers"
+    }
+  ],
+  "oldDefinition": {
+    "id": "lotus_flower",
+    "family": "lotus",
+    "rootNode": "lotus_flower",
+    "kind": "prototype",
+    "origin": "ground/base at origin; use instances.json",
+    "pose": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "budgetLod0": 4300,
+    "lods": [
+      {
+        "level": 0,
+        "file": "assets/lotus/lotus_flower_lod0.glb",
+        "textures": "embedded",
+        "triangles": 3352,
+        "vertices": 2894,
+        "primitives": 3,
+        "materials": 3,
+        "bytes": 1525984,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TEXCOORD_0"
+        ]
+      },
+      {
+        "level": 1,
+        "file": "assets/lotus/lotus_flower_lod1.glb",
+        "textures": "relative external PNGs in same asset folder",
+        "triangles": 962,
+        "vertices": 1019,
+        "primitives": 3,
+        "materials": 3,
+        "bytes": 56320,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TEXCOORD_0"
+        ]
+      },
+      {
+        "level": 2,
+        "file": "assets/lotus/lotus_flower_lod2.glb",
+        "textures": "relative external PNGs in same asset folder",
+        "triangles": 286,
+        "vertices": 363,
+        "primitives": 3,
+        "materials": 3,
+        "bytes": 23392,
+        "attributes": [
+          "COLOR_0",
+          "NORMAL",
+          "POSITION",
+          "TEXCOORD_0"
+        ]
+      }
+    ]
+  },
+  "newDefinition": {
+    "id": "lotus_flower",
+    "family": "lotus",
+    "rootNode": "lotus_flower.001",
+    "kind": "prototype",
+    "origin": "ground/base at origin; use instances.json",
+    "pose": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "budgetLod0": 2500,
+    "lods": [
+      {
+        "level": 0,
+        "file": "assets/lotus_imported/lotus_flower_lod0.glb",
+        "textures": "embedded",
+        "triangles": 2390,
+        "vertices": 1706,
+        "primitives": 3,
+        "materials": 3,
+        "bytes": 3196116,
+        "attributes": [
+          "NORMAL",
+          "POSITION",
+          "TEXCOORD_0"
+        ]
+      }
+    ],
+    "materialAssetFile": "assets/lotus_imported/asset.json",
+    "lodPolicy": "Only uploaded LOD0 is available. Reuse this geometry at all distances; do not switch back to the old flower.",
+    "materialBindings": {
+      "Lotus_Heart": {
+        "role": "heart"
+      },
+      "Lotus_Petals": {
+        "role": "petals"
+      },
+      "Lotus_Stem": {
+        "role": "stem"
+      }
+    }
+  },
+  "boundsMin": [
+    -0.3895805776119232,
+    0.0,
+    -0.3851514756679535
+  ],
+  "boundsMax": [
+    0.38112905621528625,
+    1.2000000476837158,
+    0.37733355164527893
+  ],
+  "boundsSize": [
+    0.7707096338272095,
+    1.2000000476837158,
+    0.7624850273132324
+  ],
+  "textures": [
+    {
+      "uploaded": "2a74d59a-74fd-4433-b238-64d1323117c4.png",
+      "material": "heart",
+      "role": "ao",
+      "file": "assets/lotus_imported/textures/heart/ao.png",
+      "maxDifferenceFromEmbedded": 1
+    },
+    {
+      "uploaded": "63d246e4-df3c-4f99-a315-c5dd4c58eac5.png",
+      "material": "heart",
+      "role": "basecolor",
+      "file": "assets/lotus_imported/textures/heart/basecolor.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "771a5ba5-5a6b-4740-a0a5-9dc0b2e9f1d0.png",
+      "material": "heart",
+      "role": "normal",
+      "file": "assets/lotus_imported/textures/heart/normal.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "97e1cf60-af3e-43b3-973c-eec1c0c49135.png",
+      "material": "heart",
+      "role": "orm",
+      "file": "assets/lotus_imported/textures/heart/orm.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "2537fda6-1043-4915-a894-41a2f1f8deef.png",
+      "material": "heart",
+      "role": "roughness",
+      "file": "assets/lotus_imported/textures/heart/roughness.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "1c72cd2e-96cf-4e6e-9887-45f155077363.png",
+      "material": "petals",
+      "role": "ao",
+      "file": "assets/lotus_imported/textures/petals/ao.png",
+      "maxDifferenceFromEmbedded": 1
+    },
+    {
+      "uploaded": "8de6491d-c105-49d7-8062-8465dc385816.png",
+      "material": "petals",
+      "role": "basecolor",
+      "file": "assets/lotus_imported/textures/petals/basecolor.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "027ddbf5-b68a-46d2-8c9a-ad2022f9374f.png",
+      "material": "petals",
+      "role": "normal",
+      "file": "assets/lotus_imported/textures/petals/normal.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "d1f48705-7a9d-4ed7-a3b1-cc423e744a59.png",
+      "material": "petals",
+      "role": "orm",
+      "file": "assets/lotus_imported/textures/petals/orm.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "ce61c125-7ac9-41b0-a2af-15c3db4bdd1e.png",
+      "material": "petals",
+      "role": "roughness",
+      "file": "assets/lotus_imported/textures/petals/roughness.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "24f435d7-b089-49bc-b42c-b31d2077d4a9.png",
+      "material": "stem",
+      "role": "ao",
+      "file": "assets/lotus_imported/textures/stem/ao.png",
+      "maxDifferenceFromEmbedded": 1
+    },
+    {
+      "uploaded": "b4b290eb-6d28-4638-8100-6ffb62e17609.png",
+      "material": "stem",
+      "role": "basecolor",
+      "file": "assets/lotus_imported/textures/stem/basecolor.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "392cabcb-4659-47eb-bb9d-66b6e09e2295.png",
+      "material": "stem",
+      "role": "normal",
+      "file": "assets/lotus_imported/textures/stem/normal.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "4d2035ec-f332-4168-8aa8-11027394a587.png",
+      "material": "stem",
+      "role": "orm",
+      "file": "assets/lotus_imported/textures/stem/orm.png",
+      "maxDifferenceFromEmbedded": 0
+    },
+    {
+      "uploaded": "641909a3-0f1c-4361-994a-1bfea4ef5213.png",
+      "material": "stem",
+      "role": "roughness",
+      "file": "assets/lotus_imported/textures/stem/roughness.png",
+      "maxDifferenceFromEmbedded": 0
+    }
+  ],
+  "newSimplifiedLODsGenerated": false
+}

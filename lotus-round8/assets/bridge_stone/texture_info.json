@@ -1,0 +1,21 @@
+{
+  "resolution": [
+    1024,
+    1024
+  ],
+  "atlas": [
+    4,
+    4
+  ],
+  "roles": [
+    "limestone",
+    "carved_stone",
+    "paving"
+  ],
+  "basecolor": "sRGB original procedural albedo; no baked illumination",
+  "normal": "linear OpenGL tangent space +Y",
+  "orm": "linear R AO / G roughness / B metallic",
+  "height": "16-bit scalar PNG; source only",
+  "runtimeTextureCount": 9,
+  "estimatedRGBA8WithMipmapsMiB": 48.0
+}

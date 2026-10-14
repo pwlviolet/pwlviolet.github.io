@@ -1,0 +1,158 @@
+{
+  "family": "lotus",
+  "assets": [
+    {
+      "id": "lotus_flower",
+      "family": "lotus",
+      "rootNode": "lotus_flower_refined",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 2800,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/lotus_refined/lotus_flower_lod0.glb",
+          "textures": "embedded",
+          "triangles": 2614,
+          "vertices": 1846,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 3202188,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/lotus_refined/lotus_flower_lod1.glb",
+          "textures": "relative external PNGs",
+          "triangles": 996,
+          "vertices": 822,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 36776,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/lotus_refined/lotus_flower_lod2.glb",
+          "textures": "relative external PNGs",
+          "triangles": 522,
+          "vertices": 414,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 20872,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "materialAssetFile": "assets/lotus_refined/asset.json",
+      "lodPolicy": "22 shared petal surfaces in all three LODs. Fewer surface samples and stamens at distance.",
+      "materialBindings": {
+        "Lotus_Refined_Heart": {
+          "role": "heart"
+        },
+        "Lotus_Refined_Petals": {
+          "role": "petals"
+        },
+        "Lotus_Refined_Stem": {
+          "role": "stem"
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Lotus_Refined_Heart",
+      "role": "heart",
+      "maps": {
+        "basecolor": "textures/heart/basecolor.png",
+        "normal": "textures/heart/normal.png",
+        "orm": "textures/heart/orm.png",
+        "ao": "textures/heart/ao.png",
+        "roughness": "textures/heart/roughness.png"
+      },
+      "colorSpace": "basecolor sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic",
+      "runtime": "LOD0 embeds source maps; LOD1/2 share external PNGs"
+    },
+    {
+      "name": "Lotus_Refined_Petals",
+      "role": "petals",
+      "maps": {
+        "basecolor": "textures/petals/basecolor.png",
+        "normal": "textures/petals/normal.png",
+        "orm": "textures/petals/orm.png",
+        "ao": "textures/petals/ao.png",
+        "roughness": "textures/petals/roughness.png"
+      },
+      "colorSpace": "basecolor sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic",
+      "runtime": "LOD0 embeds source maps; LOD1/2 share external PNGs"
+    },
+    {
+      "name": "Lotus_Refined_Stem",
+      "role": "stem",
+      "maps": {
+        "basecolor": "textures/stem/basecolor.png",
+        "normal": "textures/stem/normal.png",
+        "orm": "textures/stem/orm.png",
+        "ao": "textures/stem/ao.png",
+        "roughness": "textures/stem/roughness.png"
+      },
+      "colorSpace": "basecolor sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic",
+      "runtime": "LOD0 embeds source maps; LOD1/2 share external PNGs"
+    }
+  ],
+  "sourceOriginalUnmodified": false,
+  "sourceOriginalPreservedAt": "../lotus_imported/input_originals/"
+}

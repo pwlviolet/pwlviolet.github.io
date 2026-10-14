@@ -1,0 +1,198 @@
+{
+  "family": "house_03",
+  "assets": [
+    {
+      "id": "house_03",
+      "family": "house_03",
+      "rootNode": "house_03",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          15.399999618530273,
+          0.07999857515096664,
+          -32.5
+        ],
+        "quaternion": [
+          2.792434693036933e-17,
+          -0.10977831482887268,
+          4.7985619922030764e-09,
+          0.9939561486244202
+        ],
+        "scale": [
+          0.9999999403953552,
+          1.0,
+          0.9999999403953552
+        ],
+        "matrix": [
+          0.9758974313735962,
+          9.539119716350797e-09,
+          0.21822962164878845,
+          0.0,
+          -9.539119716350797e-09,
+          1.0,
+          -1.0535572414482886e-09,
+          0.0,
+          -0.21822962164878845,
+          -1.0535572414482886e-09,
+          0.9758974313735962,
+          0.0,
+          15.399999618530273,
+          0.07999857515096664,
+          -32.5,
+          1.0
+        ]
+      },
+      "budgetLod0": 5000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/house_03/house_03_lod0.glb",
+          "textures": "embedded",
+          "triangles": 3100,
+          "vertices": 4079,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 2945252,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/house_03/house_03_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 1394,
+          "vertices": 2353,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 122864,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/house_03/house_03_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 556,
+          "vertices": 1052,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 60560,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "house_03__timber",
+      "role": "timber",
+      "maps": {
+        "ao": "textures/timber/ao.png",
+        "basecolor": "textures/timber/basecolor.png",
+        "height": "textures/timber/height.png",
+        "metallic": "textures/timber/metallic.png",
+        "normal": "textures/timber/normal.png",
+        "orm": "textures/timber/orm.png",
+        "roughness": "textures/timber/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_03__stone",
+      "role": "stone",
+      "maps": {
+        "ao": "textures/stone/ao.png",
+        "basecolor": "textures/stone/basecolor.png",
+        "height": "textures/stone/height.png",
+        "metallic": "textures/stone/metallic.png",
+        "normal": "textures/stone/normal.png",
+        "orm": "textures/stone/orm.png",
+        "roughness": "textures/stone/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_03__tile",
+      "role": "tile",
+      "maps": {
+        "ao": "textures/tile/ao.png",
+        "basecolor": "textures/tile/basecolor.png",
+        "height": "textures/tile/height.png",
+        "metallic": "textures/tile/metallic.png",
+        "normal": "textures/tile/normal.png",
+        "orm": "textures/tile/orm.png",
+        "roughness": "textures/tile/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_03__plaster",
+      "role": "plaster",
+      "maps": {
+        "ao": "textures/plaster/ao.png",
+        "basecolor": "textures/plaster/basecolor.png",
+        "height": "textures/plaster/height.png",
+        "metallic": "textures/plaster/metallic.png",
+        "normal": "textures/plaster/normal.png",
+        "orm": "textures/plaster/orm.png",
+        "roughness": "textures/plaster/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_03__paper",
+      "role": "paper",
+      "maps": {
+        "ao": "textures/paper/ao.png",
+        "basecolor": "textures/paper/basecolor.png",
+        "emissive": "textures/paper/emissive.png",
+        "height": "textures/paper/height.png",
+        "metallic": "textures/paper/metallic.png",
+        "normal": "textures/paper/normal.png",
+        "orm": "textures/paper/orm.png",
+        "roughness": "textures/paper/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_03__metal",
+      "role": "metal",
+      "maps": {
+        "ao": "textures/metal/ao.png",
+        "basecolor": "textures/metal/basecolor.png",
+        "height": "textures/metal/height.png",
+        "metallic": "textures/metal/metallic.png",
+        "normal": "textures/metal/normal.png",
+        "orm": "textures/metal/orm.png",
+        "roughness": "textures/metal/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

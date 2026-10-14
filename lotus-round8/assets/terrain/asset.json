@@ -1,0 +1,119 @@
+{
+  "family": "terrain",
+  "assets": [
+    {
+      "id": "terrain",
+      "family": "terrain",
+      "rootNode": "terrain",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 37000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/terrain/terrain_lod0.glb",
+          "textures": "embedded",
+          "triangles": 36864,
+          "vertices": 18705,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 2416968,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/terrain/terrain_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 16957,
+          "vertices": 8630,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 483504,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/terrain/terrain_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 7372,
+          "vertices": 3771,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 212192,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "terrain__ground",
+      "role": "ground",
+      "maps": {
+        "ao": "ao.png",
+        "basecolor": "basecolor.png",
+        "height": "height.png",
+        "metallic": "metallic.png",
+        "normal_detail": "normal_detail.png",
+        "orm": "orm.png",
+        "roughness": "roughness.png",
+        "shore_wetness": "shore_wetness.png",
+        "splat": "splat.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

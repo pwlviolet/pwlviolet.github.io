@@ -1,0 +1,540 @@
+{
+  "family": "lotus",
+  "assets": [
+    {
+      "id": "leaf_A",
+      "family": "lotus",
+      "rootNode": "leaf_A",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 1400,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/lotus/leaf_A_lod0.glb",
+          "textures": "embedded",
+          "triangles": 404,
+          "vertices": 246,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 920288,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/lotus/leaf_A_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 164,
+          "vertices": 116,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 8336,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/lotus/leaf_A_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 92,
+          "vertices": 75,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 6092,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leaf_B",
+      "family": "lotus",
+      "rootNode": "leaf_B",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 1400,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/lotus/leaf_B_lod0.glb",
+          "textures": "embedded",
+          "triangles": 404,
+          "vertices": 246,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 920284,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/lotus/leaf_B_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 164,
+          "vertices": 116,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 8336,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/lotus/leaf_B_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 92,
+          "vertices": 75,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 6092,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lotus_flower",
+      "family": "lotus",
+      "rootNode": "lotus_flower_refined",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 2800,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/lotus_refined/lotus_flower_lod0.glb",
+          "textures": "embedded",
+          "triangles": 2614,
+          "vertices": 1846,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 3202188,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/lotus_refined/lotus_flower_lod1.glb",
+          "textures": "relative external PNGs",
+          "triangles": 996,
+          "vertices": 822,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 36776,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/lotus_refined/lotus_flower_lod2.glb",
+          "textures": "relative external PNGs",
+          "triangles": 522,
+          "vertices": 414,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 20872,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "materialAssetFile": "assets/lotus_refined/asset.json",
+      "lodPolicy": "22 shared petal surfaces in all three LODs. Fewer surface samples and stamens at distance.",
+      "materialBindings": {
+        "Lotus_Refined_Heart": {
+          "role": "heart"
+        },
+        "Lotus_Refined_Petals": {
+          "role": "petals"
+        },
+        "Lotus_Refined_Stem": {
+          "role": "stem"
+        }
+      }
+    },
+    {
+      "id": "lotus_half",
+      "family": "lotus",
+      "rootNode": "lotus_half",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 4300,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/lotus/lotus_half_lod0.glb",
+          "textures": "embedded",
+          "triangles": 3176,
+          "vertices": 2780,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 1519896,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/lotus/lotus_half_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 922,
+          "vertices": 985,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 54564,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/lotus/lotus_half_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 274,
+          "vertices": 347,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 22596,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lotus_bud",
+      "family": "lotus",
+      "rootNode": "lotus_bud",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 4300,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/lotus/lotus_bud_lod0.glb",
+          "textures": "embedded",
+          "triangles": 369,
+          "vertices": 244,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 1318124,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/lotus/lotus_bud_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 185,
+          "vertices": 140,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 11320,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/lotus/lotus_bud_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 97,
+          "vertices": 88,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 8500,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "lotus__leaf",
+      "role": "leaf",
+      "maps": {
+        "ao": "textures/leaf/ao.png",
+        "basecolor": "textures/leaf/basecolor.png",
+        "height": "textures/leaf/height.png",
+        "metallic": "textures/leaf/metallic.png",
+        "normal": "textures/leaf/normal.png",
+        "orm": "textures/leaf/orm.png",
+        "roughness": "textures/leaf/roughness.png",
+        "thickness": "textures/leaf/thickness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "lotus__petal",
+      "role": "petal",
+      "maps": {
+        "ao": "textures/petal/ao.png",
+        "basecolor": "textures/petal/basecolor.png",
+        "height": "textures/petal/height.png",
+        "metallic": "textures/petal/metallic.png",
+        "normal": "textures/petal/normal.png",
+        "orm": "textures/petal/orm.png",
+        "roughness": "textures/petal/roughness.png",
+        "thickness": "textures/petal/thickness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "lotus__seed",
+      "role": "seed",
+      "maps": {
+        "ao": "textures/seed/ao.png",
+        "basecolor": "textures/seed/basecolor.png",
+        "height": "textures/seed/height.png",
+        "metallic": "textures/seed/metallic.png",
+        "normal": "textures/seed/normal.png",
+        "orm": "textures/seed/orm.png",
+        "roughness": "textures/seed/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ],
+  "additionalMaterialAssetFiles": [
+    "assets/lotus_refined/asset.json"
+  ]
+}

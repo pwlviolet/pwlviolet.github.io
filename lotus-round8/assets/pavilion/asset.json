@@ -1,0 +1,198 @@
+{
+  "family": "pavilion",
+  "assets": [
+    {
+      "id": "pavilion",
+      "family": "pavilion",
+      "rootNode": "pavilion",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          -7.400000095367432,
+          0.6999998688697815,
+          -3.0
+        ],
+        "quaternion": [
+          0.0,
+          -0.059964004904031754,
+          2.6211097736705824e-09,
+          0.998200535774231
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          0.9928086400032043,
+          5.23278664843474e-09,
+          0.11971220374107361,
+          0.0,
+          -5.23278664843474e-09,
+          1.0,
+          -3.143441063002683e-10,
+          0.0,
+          -0.11971220374107361,
+          -3.143441063002683e-10,
+          0.9928086400032043,
+          0.0,
+          -7.400000095367432,
+          0.6999998688697815,
+          -3.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 26000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/pavilion/pavilion_lod0.glb",
+          "textures": "embedded",
+          "triangles": 24284,
+          "vertices": 33672,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 6868292,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/pavilion/pavilion_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 10916,
+          "vertices": 16309,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 793820,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/pavilion/pavilion_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 4452,
+          "vertices": 6389,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 318544,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "pavilion__timber",
+      "role": "timber",
+      "maps": {
+        "ao": "textures/timber/ao.png",
+        "basecolor": "textures/timber/basecolor.png",
+        "height": "textures/timber/height.png",
+        "metallic": "textures/timber/metallic.png",
+        "normal": "textures/timber/normal.png",
+        "orm": "textures/timber/orm.png",
+        "roughness": "textures/timber/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "pavilion__stone",
+      "role": "stone",
+      "maps": {
+        "ao": "textures/stone/ao.png",
+        "basecolor": "textures/stone/basecolor.png",
+        "height": "textures/stone/height.png",
+        "metallic": "textures/stone/metallic.png",
+        "normal": "textures/stone/normal.png",
+        "orm": "textures/stone/orm.png",
+        "roughness": "textures/stone/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "pavilion__tile",
+      "role": "tile",
+      "maps": {
+        "ao": "textures/tile/ao.png",
+        "basecolor": "textures/tile/basecolor.png",
+        "height": "textures/tile/height.png",
+        "metallic": "textures/tile/metallic.png",
+        "normal": "textures/tile/normal.png",
+        "orm": "textures/tile/orm.png",
+        "roughness": "textures/tile/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "pavilion__tile_end",
+      "role": "tile_end",
+      "maps": {
+        "ao": "textures/tile_end/ao.png",
+        "basecolor": "textures/tile_end/basecolor.png",
+        "height": "textures/tile_end/height.png",
+        "metallic": "textures/tile_end/metallic.png",
+        "normal": "textures/tile_end/normal.png",
+        "orm": "textures/tile_end/orm.png",
+        "roughness": "textures/tile_end/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "pavilion__metal",
+      "role": "metal",
+      "maps": {
+        "ao": "textures/metal/ao.png",
+        "basecolor": "textures/metal/basecolor.png",
+        "height": "textures/metal/height.png",
+        "metallic": "textures/metal/metallic.png",
+        "normal": "textures/metal/normal.png",
+        "orm": "textures/metal/orm.png",
+        "roughness": "textures/metal/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "pavilion__paper",
+      "role": "paper",
+      "maps": {
+        "ao": "textures/paper/ao.png",
+        "basecolor": "textures/paper/basecolor.png",
+        "emissive": "textures/paper/emissive.png",
+        "height": "textures/paper/height.png",
+        "metallic": "textures/paper/metallic.png",
+        "normal": "textures/paper/normal.png",
+        "orm": "textures/paper/orm.png",
+        "roughness": "textures/paper/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

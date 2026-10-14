@@ -1,0 +1,155 @@
+{
+  "family": "bridge_stone",
+  "assets": [
+    {
+      "id": "bridge_stone",
+      "family": "bridge_stone",
+      "rootNode": "bridge_stone",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          2.0,
+          -1.0927847142738756e-06,
+          -25.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          2.0,
+          -1.0927847142738756e-06,
+          -25.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 28000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/bridge_stone/bridge_stone_lod0.glb",
+          "textures": "embedded",
+          "triangles": 27120,
+          "vertices": 58006,
+          "primitives": 8,
+          "materials": 3,
+          "bytes": 13882872,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/bridge_stone/bridge_stone_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 10840,
+          "vertices": 31861,
+          "primitives": 8,
+          "materials": 3,
+          "bytes": 1989008,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/bridge_stone/bridge_stone_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 3540,
+          "vertices": 10575,
+          "primitives": 8,
+          "materials": 3,
+          "bytes": 667952,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "variantGroup": "bridge",
+      "variantKey": "stone",
+      "enabled": true
+    }
+  ],
+  "materials": [
+    {
+      "name": "bridge_stone__limestone",
+      "role": "limestone",
+      "maps": {
+        "ao": "textures/limestone/ao.png",
+        "basecolor": "textures/limestone/basecolor.png",
+        "height": "textures/limestone/height.png",
+        "metallic": "textures/limestone/metallic.png",
+        "normal": "textures/limestone/normal.png",
+        "orm": "textures/limestone/orm.png",
+        "roughness": "textures/limestone/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bridge_stone__paving",
+      "role": "paving",
+      "maps": {
+        "ao": "textures/paving/ao.png",
+        "basecolor": "textures/paving/basecolor.png",
+        "height": "textures/paving/height.png",
+        "metallic": "textures/paving/metallic.png",
+        "normal": "textures/paving/normal.png",
+        "orm": "textures/paving/orm.png",
+        "roughness": "textures/paving/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bridge_stone__carved_stone",
+      "role": "carved_stone",
+      "maps": {
+        "ao": "textures/carved_stone/ao.png",
+        "basecolor": "textures/carved_stone/basecolor.png",
+        "height": "textures/carved_stone/height.png",
+        "metallic": "textures/carved_stone/metallic.png",
+        "normal": "textures/carved_stone/normal.png",
+        "orm": "textures/carved_stone/orm.png",
+        "roughness": "textures/carved_stone/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

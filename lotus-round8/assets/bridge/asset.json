@@ -1,0 +1,201 @@
+{
+  "family": "bridge",
+  "assets": [
+    {
+      "id": "bridge",
+      "family": "bridge",
+      "rootNode": "bridge",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          2.0,
+          -1.0927847142738756e-06,
+          -25.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          2.0,
+          -1.0927847142738756e-06,
+          -25.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 22000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/bridge/bridge_lod0.glb",
+          "textures": "embedded",
+          "triangles": 21324,
+          "vertices": 30331,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 7866572,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/bridge/bridge_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 9653,
+          "vertices": 19305,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 917952,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/bridge/bridge_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 3829,
+          "vertices": 9161,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 436644,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "variantGroup": "bridge",
+      "variantKey": "covered",
+      "enabled": false
+    }
+  ],
+  "materials": [
+    {
+      "name": "bridge__timber",
+      "role": "timber",
+      "maps": {
+        "ao": "textures/timber/ao.png",
+        "basecolor": "textures/timber/basecolor.png",
+        "height": "textures/timber/height.png",
+        "metallic": "textures/timber/metallic.png",
+        "normal": "textures/timber/normal.png",
+        "orm": "textures/timber/orm.png",
+        "roughness": "textures/timber/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bridge__stone",
+      "role": "stone",
+      "maps": {
+        "ao": "textures/stone/ao.png",
+        "basecolor": "textures/stone/basecolor.png",
+        "height": "textures/stone/height.png",
+        "metallic": "textures/stone/metallic.png",
+        "normal": "textures/stone/normal.png",
+        "orm": "textures/stone/orm.png",
+        "roughness": "textures/stone/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bridge__tile",
+      "role": "tile",
+      "maps": {
+        "ao": "textures/tile/ao.png",
+        "basecolor": "textures/tile/basecolor.png",
+        "height": "textures/tile/height.png",
+        "metallic": "textures/tile/metallic.png",
+        "normal": "textures/tile/normal.png",
+        "orm": "textures/tile/orm.png",
+        "roughness": "textures/tile/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bridge__metal",
+      "role": "metal",
+      "maps": {
+        "ao": "textures/metal/ao.png",
+        "basecolor": "textures/metal/basecolor.png",
+        "height": "textures/metal/height.png",
+        "metallic": "textures/metal/metallic.png",
+        "normal": "textures/metal/normal.png",
+        "orm": "textures/metal/orm.png",
+        "roughness": "textures/metal/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bridge__paper",
+      "role": "paper",
+      "maps": {
+        "ao": "textures/paper/ao.png",
+        "basecolor": "textures/paper/basecolor.png",
+        "emissive": "textures/paper/emissive.png",
+        "height": "textures/paper/height.png",
+        "metallic": "textures/paper/metallic.png",
+        "normal": "textures/paper/normal.png",
+        "orm": "textures/paper/orm.png",
+        "roughness": "textures/paper/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bridge__rope",
+      "role": "rope",
+      "maps": {
+        "ao": "textures/rope/ao.png",
+        "basecolor": "textures/rope/basecolor.png",
+        "height": "textures/rope/height.png",
+        "metallic": "textures/rope/metallic.png",
+        "normal": "textures/rope/normal.png",
+        "orm": "textures/rope/orm.png",
+        "roughness": "textures/rope/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

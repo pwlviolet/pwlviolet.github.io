@@ -1,0 +1,127 @@
+{
+  "family": "lotus",
+  "assets": [
+    {
+      "id": "lotus_flower",
+      "family": "lotus",
+      "rootNode": "lotus_flower.001",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 2500,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/lotus_imported/lotus_flower_lod0.glb",
+          "textures": "embedded",
+          "triangles": 2390,
+          "vertices": 1706,
+          "primitives": 3,
+          "materials": 3,
+          "bytes": 3196116,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "materialAssetFile": "assets/lotus_imported/asset.json",
+      "lodPolicy": "Only uploaded LOD0 is available. Reuse this geometry at all distances; do not switch back to the old flower.",
+      "materialBindings": {
+        "Lotus_Heart": {
+          "role": "heart"
+        },
+        "Lotus_Petals": {
+          "role": "petals"
+        },
+        "Lotus_Stem": {
+          "role": "stem"
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Lotus_Heart",
+      "role": "heart",
+      "maps": {
+        "basecolor": "textures/heart/basecolor.png",
+        "normal": "textures/heart/normal.png",
+        "orm": "textures/heart/orm.png",
+        "ao": "textures/heart/ao.png",
+        "roughness": "textures/heart/roughness.png"
+      },
+      "colorSpace": "basecolor sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic",
+      "runtime": "GLB embedded equivalent maps"
+    },
+    {
+      "name": "Lotus_Petals",
+      "role": "petals",
+      "maps": {
+        "basecolor": "textures/petals/basecolor.png",
+        "normal": "textures/petals/normal.png",
+        "orm": "textures/petals/orm.png",
+        "ao": "textures/petals/ao.png",
+        "roughness": "textures/petals/roughness.png"
+      },
+      "colorSpace": "basecolor sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic",
+      "runtime": "GLB embedded equivalent maps"
+    },
+    {
+      "name": "Lotus_Stem",
+      "role": "stem",
+      "maps": {
+        "basecolor": "textures/stem/basecolor.png",
+        "normal": "textures/stem/normal.png",
+        "orm": "textures/stem/orm.png",
+        "ao": "textures/stem/ao.png",
+        "roughness": "textures/stem/roughness.png"
+      },
+      "colorSpace": "basecolor sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic",
+      "runtime": "GLB embedded equivalent maps"
+    }
+  ],
+  "sourceOriginalUnmodified": true
+}

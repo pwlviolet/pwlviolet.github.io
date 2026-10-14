@@ -1,0 +1,56 @@
+{
+  "revision": 6,
+  "materials": [
+    {
+      "role": "timber",
+      "width": 1024,
+      "height": 1024,
+      "source": "analytic procedural material; no scene lighting baked into basecolor",
+      "normalConvention": "OpenGL +Y",
+      "heightToNormalScale": 0.0015
+    },
+    {
+      "role": "stone",
+      "width": 1024,
+      "height": 1024,
+      "source": "analytic procedural material; no scene lighting baked into basecolor",
+      "normalConvention": "OpenGL +Y",
+      "heightToNormalScale": 0.002
+    },
+    {
+      "role": "tile",
+      "width": 1024,
+      "height": 1024,
+      "source": "analytic procedural material; no scene lighting baked into basecolor",
+      "normalConvention": "OpenGL +Y",
+      "heightToNormalScale": 0.0012
+    },
+    {
+      "role": "tile_end",
+      "width": 512,
+      "height": 512,
+      "source": "analytic procedural material; no scene lighting baked into basecolor",
+      "normalConvention": "OpenGL +Y",
+      "heightToNormalScale": 0.01
+    },
+    {
+      "role": "metal",
+      "width": 512,
+      "height": 512,
+      "source": "analytic procedural material; no scene lighting baked into basecolor",
+      "normalConvention": "OpenGL +Y",
+      "heightToNormalScale": 0.0018
+    },
+    {
+      "role": "paper",
+      "width": 512,
+      "height": 512,
+      "source": "analytic procedural material; no scene lighting baked into basecolor",
+      "normalConvention": "OpenGL +Y",
+      "heightToNormalScale": 0.0003
+    }
+  ],
+  "orm": "R=AO G=roughness B=metallic",
+  "height": "16-bit scalar; not automatic displacement",
+  "tileEndAtlas": "2 x 2 padded circular medallions"
+}

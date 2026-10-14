@@ -1,0 +1,122 @@
+{
+  "family": "grass",
+  "assets": [
+    {
+      "id": "grass_tuft",
+      "family": "grass",
+      "rootNode": "grass_tuft",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 70,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/grass/grass_tuft_lod0.glb",
+          "textures": "embedded",
+          "triangles": 54,
+          "vertices": 72,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 141416,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/grass/grass_tuft_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 24,
+          "vertices": 36,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 4760,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/grass/grass_tuft_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 16,
+          "vertices": 24,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 3988,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "grass__blade",
+      "role": "blade",
+      "maps": {
+        "ao": "textures/blade/ao.png",
+        "basecolor": "textures/blade/basecolor.png",
+        "height": "textures/blade/height.png",
+        "metallic": "textures/blade/metallic.png",
+        "normal": "textures/blade/normal.png",
+        "opacity": "textures/blade/opacity.png",
+        "orm": "textures/blade/orm.png",
+        "roughness": "textures/blade/roughness.png",
+        "thickness": "textures/blade/thickness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

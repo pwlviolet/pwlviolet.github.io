@@ -1,0 +1,332 @@
+{
+  "family": "bamboo",
+  "assets": [
+    {
+      "id": "bamboo_A",
+      "family": "bamboo",
+      "rootNode": "bamboo_A",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 5000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/bamboo/bamboo_A_lod0.glb",
+          "textures": "embedded",
+          "triangles": 2980,
+          "vertices": 3256,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 1570256,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/bamboo/bamboo_A_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 1256,
+          "vertices": 1600,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 107780,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/bamboo/bamboo_A_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 644,
+          "vertices": 888,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 61380,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bamboo_B",
+      "family": "bamboo",
+      "rootNode": "bamboo_B",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 5000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/bamboo/bamboo_B_lod0.glb",
+          "textures": "embedded",
+          "triangles": 2980,
+          "vertices": 3256,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 1570260,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/bamboo/bamboo_B_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 1256,
+          "vertices": 1600,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 107780,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/bamboo/bamboo_B_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 644,
+          "vertices": 888,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 61380,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bamboo_C",
+      "family": "bamboo",
+      "rootNode": "bamboo_C",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 5000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/bamboo/bamboo_C_lod0.glb",
+          "textures": "embedded",
+          "triangles": 2980,
+          "vertices": 3256,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 1570256,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/bamboo/bamboo_C_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 1256,
+          "vertices": 1600,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 107776,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/bamboo/bamboo_C_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 644,
+          "vertices": 888,
+          "primitives": 2,
+          "materials": 2,
+          "bytes": 61380,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "_WIND"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "bamboo__culm",
+      "role": "culm",
+      "maps": {
+        "ao": "textures/culm/ao.png",
+        "basecolor": "textures/culm/basecolor.png",
+        "height": "textures/culm/height.png",
+        "metallic": "textures/culm/metallic.png",
+        "normal": "textures/culm/normal.png",
+        "orm": "textures/culm/orm.png",
+        "roughness": "textures/culm/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "bamboo__leaf",
+      "role": "leaf",
+      "maps": {
+        "ao": "textures/leaf/ao.png",
+        "basecolor": "textures/leaf/basecolor.png",
+        "height": "textures/leaf/height.png",
+        "metallic": "textures/leaf/metallic.png",
+        "normal": "textures/leaf/normal.png",
+        "opacity": "textures/leaf/opacity.png",
+        "orm": "textures/leaf/orm.png",
+        "roughness": "textures/leaf/roughness.png",
+        "thickness": "textures/leaf/thickness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

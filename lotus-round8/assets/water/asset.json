@@ -1,0 +1,117 @@
+{
+  "family": "water",
+  "assets": [
+    {
+      "id": "water",
+      "family": "water",
+      "rootNode": "water",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          0.0,
+          -0.02199999988079071,
+          9.61650536979164e-10
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -0.02199999988079071,
+          9.61650536979164e-10,
+          1.0
+        ]
+      },
+      "budgetLod0": 2,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/water/water_lod0.glb",
+          "textures": "embedded",
+          "triangles": 2,
+          "vertices": 4,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 1405068,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/water/water_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 2,
+          "vertices": 4,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 2148,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/water/water_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 2,
+          "vertices": 4,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 2148,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "water__water",
+      "role": "water",
+      "maps": {
+        "ao": "textures/water/ao.png",
+        "basecolor": "textures/water/basecolor.png",
+        "height": "textures/water/height.png",
+        "metallic": "textures/water/metallic.png",
+        "normal": "textures/water/normal.png",
+        "orm": "textures/water/orm.png",
+        "roughness": "textures/water/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "family": "rocks",
+  "assets": [
+    {
+      "id": "rock_A",
+      "family": "rocks",
+      "rootNode": "rock_A",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 200,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/rocks/rock_A_lod0.glb",
+          "textures": "embedded",
+          "triangles": 192,
+          "vertices": 167,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 668592,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/rocks/rock_A_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 87,
+          "vertices": 97,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 6828,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/rocks/rock_A_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 39,
+          "vertices": 39,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 3980,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rock_B",
+      "family": "rocks",
+      "rootNode": "rock_B",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 200,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/rocks/rock_B_lod0.glb",
+          "textures": "embedded",
+          "triangles": 192,
+          "vertices": 164,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 668460,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/rocks/rock_B_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 88,
+          "vertices": 98,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 6876,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/rocks/rock_B_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 41,
+          "vertices": 43,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 4172,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rock_C",
+      "family": "rocks",
+      "rootNode": "rock_C",
+      "kind": "prototype",
+      "origin": "ground/base at origin; use instances.json",
+      "pose": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 200,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/rocks/rock_C_lod0.glb",
+          "textures": "embedded",
+          "triangles": 192,
+          "vertices": 168,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 668636,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/rocks/rock_C_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 88,
+          "vertices": 96,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 6788,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/rocks/rock_C_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 41,
+          "vertices": 43,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 4168,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "rocks__rock",
+      "role": "rock",
+      "maps": {
+        "ao": "textures/rock/ao.png",
+        "basecolor": "textures/rock/basecolor.png",
+        "height": "textures/rock/height.png",
+        "metallic": "textures/rock/metallic.png",
+        "normal": "textures/rock/normal.png",
+        "orm": "textures/rock/orm.png",
+        "roughness": "textures/rock/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "revision": 8,
+  "sourceSHA256": "1d7361bd5fd81356e7b0099de9f22471d133099071c9d52a314a6cad26e583d9",
+  "sourceGLBPreserved": true,
+  "texturePixelsUnchanged": true,
+  "instanceSHA256": "7d5c1ce055ee2be60ed47b0c72467a11057173b90a89d9f3b52ac116f91047c1",
+  "bounds": {
+    "min": [
+      -0.36832752399870383,
+      0.0,
+      -0.3659102387536354
+    ],
+    "max": [
+      0.37818518145707847,
+      1.2033146436211817,
+      0.382372287990419
+    ],
+    "size": [
+      0.7465127054557823,
+      1.2033146436211817,
+      0.7482825267440544
+    ]
+  },
+  "lods": [
+    {
+      "level": 0,
+      "file": "assets/lotus_refined/lotus_flower_lod0.glb",
+      "textures": "embedded",
+      "triangles": 2614,
+      "vertices": 1846,
+      "primitives": 3,
+      "materials": 3,
+      "bytes": 3202188,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "level": 1,
+      "file": "assets/lotus_refined/lotus_flower_lod1.glb",
+      "textures": "relative external PNGs",
+      "triangles": 996,
+      "vertices": 822,
+      "primitives": 3,
+      "materials": 3,
+      "bytes": 36776,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "level": 2,
+      "file": "assets/lotus_refined/lotus_flower_lod2.glb",
+      "textures": "relative external PNGs",
+      "triangles": 522,
+      "vertices": 414,
+      "primitives": 3,
+      "materials": 3,
+      "bytes": 20872,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    }
+  ],
+  "petalCount": 22,
+  "petalParameters": [
+    {
+      "index": 0,
+      "ring": 0,
+      "theta": -0.049596815129244576,
+      "uvMin": [
+        0.012000000104308128,
+        0.812000036239624
+      ],
+      "uvMax": [
+        0.18799999356269836,
+        0.9879999756813049
+      ],
+      "variation": 0.3894183423086505
+    },
+    {
+      "index": 1,
+      "ring": 0,
+      "theta": -0.8548834656941677,
+      "uvMin": [
+        0.21199999749660492,
+        0.812000036239624
+      ],
+      "uvMax": [
+        0.3880000114440918,
+        0.9879999756813049
+      ],
+      "variation": 0.33502301215320235
+    },
+    {
+      "index": 2,
+      "ring": 0,
+      "theta": -1.6371521274594634,
+      "uvMin": [
+        0.41200000047683716,
+        0.812000036239624
+      ],
+      "uvMax": [
+        0.5879999995231628,
+        0.9879999756813049
+      ],
+      "variation": -0.8834893235348987
+    },
+    {
+      "index": 3,
+      "ring": 0,
+      "theta": -2.3517119338029526,
+      "uvMin": [
+        0.6119999885559082,
+        0.812000036239624
+      ],
+      "uvMax": [
+        0.7879999876022339,
+        0.9879999756813049
+      ],
+      "variation": 0.9678917762261482
+    },
+    {
+      "index": 4,
+      "ring": 0,
+      "theta": 3.0493245171182712,
+      "uvMin": [
+        0.8119999766349792,
+        0.812000036239624
+      ],
+      "uvMax": [
+        0.9879999756813049,
+        0.9879999756813049
+      ],
+      "variation": -0.5438969223454012
+    },
+    {
+      "index": 5,
+      "ring": 0,
+      "theta": 2.3471569156947405,
+      "uvMin": [
+        0.012000000104308128,
+        0.6119999885559082
+      ],
+      "uvMax": [
+        0.18799999356269836,
+        0.7879999876022339
+      ],
+      "variation": -0.16578661818928894
+    },
+    {
+      "index": 6,
+      "ring": 0,
+      "theta": 1.5608655377617295,
+      "uvMin": [
+        0.21199999749660492,
+        0.6119999885559082
+      ],
+      "uvMax": [
+        0.3880000114440918,
+        0.7879999876022339
+      ],
+      "variation": 0.7883886562013022
+    },
+    {
+      "index": 7,
+      "ring": 0,
+      "theta": 0.700965409831979,
+      "uvMin": [
+        0.41200000047683716,
+        0.6119999885559082
+      ],
+      "uvMax": [
+        0.5879999995231628,
+        0.7879999876022339
+      ],
+      "variation": -0.9968796549528619
+    },
+    {
+      "index": 8,
+      "ring": 1,
+      "theta": -0.37340839344532223,
+      "uvMin": [
+        0.6119999885559082,
+        0.6119999885559082
+      ],
+      "uvMax": [
+        0.7879999876022339,
+        0.7879999876022339
+      ],
+      "variation": 0.681747099911522
+    },
+    {
+      "index": 9,
+      "ring": 1,
+      "theta": -1.2245465120710113,
+      "uvMin": [
+        0.8119999766349792,
+        0.6119999885559082
+      ],
+      "uvMax": [
+        0.9879999756813049,
+        0.7879999876022339
+      ],
+      "variation": -0.008518321850610898
+    },
+    {
+      "index": 10,
+      "ring": 1,
+      "theta": -1.9186971373460382,
+      "uvMin": [
+        0.012000000104308128,
+        0.41200000047683716
+      ],
+      "uvMax": [
+        0.18799999356269836,
+        0.5879999995231628
+      ],
+      "variation": -0.6691848117030699
+    },
+    {
+      "index": 11,
+      "ring": 1,
+      "theta": -2.6870106954549984,
+      "uvMin": [
+        0.21199999749660492,
+        0.41200000047683716
+      ],
+      "uvMax": [
+        0.3880000114440918,
+        0.5879999995231628
+      ],
+      "variation": 0.9953902218281769
+    },
+    {
+      "index": 12,
+      "ring": 1,
+      "theta": 2.733158137775871,
+      "uvMin": [
+        0.41200000047683716,
+        0.41200000047683716
+      ],
+      "uvMax": [
+        0.5879999995231628,
+        0.5879999995231628
+      ],
+      "variation": -0.7987544216077733
+    },
+    {
+      "index": 13,
+      "ring": 1,
+      "theta": 1.9316367745638194,
+      "uvMin": [
+        0.6119999885559082,
+        0.41200000047683716
+      ],
+      "uvMax": [
+        0.7879999876022339,
+        0.5879999995231628
+      ],
+      "variation": 0.18256283371324952
+    },
+    {
+      "index": 14,
+      "ring": 1,
+      "theta": 1.2101757600330443,
+      "uvMin": [
+        0.8119999766349792,
+        0.41200000047683716
+      ],
+      "uvMax": [
+        0.9879999756813049,
+        0.5879999995231628
+      ],
+      "variation": 0.5295221745199148
+    },
+    {
+      "index": 15,
+      "ring": 1,
+      "theta": 0.38774807034660164,
+      "uvMin": [
+        0.012000000104308128,
+        0.2120000123977661
+      ],
+      "uvMax": [
+        0.18799999356269836,
+        0.3880000114440918
+      ],
+      "variation": -0.9634690128579656
+    },
+    {
+      "index": 16,
+      "ring": 2,
+      "theta": -0.8500401737463582,
+      "uvMin": [
+        0.21199999749660492,
+        0.2120000123977661
+      ],
+      "uvMax": [
+        0.3880000114440918,
+        0.3880000114440918
+      ],
+      "variation": 0.8913416566074238
+    },
+    {
+      "index": 17,
+      "ring": 2,
+      "theta": -1.951982713230046,
+      "uvMin": [
+        0.41200000047683716,
+        0.2120000123977661
+      ],
+      "uvMax": [
+        0.5879999995231628,
+        0.3880000114440918
+      ],
+      "variation": -0.3510259051403118
+    },
+    {
+      "index": 18,
+      "ring": 2,
+      "theta": -2.9911038113793342,
+      "uvMin": [
+        0.6119999885559082,
+        0.2120000123977661
+      ],
+      "uvMax": [
+        0.7879999876022339,
+        0.3880000114440918
+      ],
+      "variation": -0.37367060985199246
+    },
+    {
+      "index": 19,
+      "ring": 2,
+      "theta": 2.2792020184414485,
+      "uvMin": [
+        0.8119999766349792,
+        0.2120000123977661
+      ],
+      "uvMax": [
+        0.9879999756813049,
+        0.3880000114440918
+      ],
+      "variation": 0.902091945883089
+    },
+    {
+      "index": 20,
+      "ring": 2,
+      "theta": 1.1699581585173509,
+      "uvMin": [
+        0.012000000104308128,
+        0.012000024318695068
+      ],
+      "uvMax": [
+        0.18799999356269836,
+        0.18800002336502075
+      ],
+      "variation": -0.9566781622942654
+    },
+    {
+      "index": 21,
+      "ring": 2,
+      "theta": 0.17599164782284718,
+      "uvMin": [
+        0.21199999749660492,
+        0.012000024318695068
+      ],
+      "uvMax": [
+        0.3880000114440918,
+        0.18800002336502075
+      ],
+      "variation": 0.5087571636291447
+    }
+  ],
+  "geometryAudit": [
+    {
+      "level": 0,
+      "parts": [
+        {
+          "material": "Lotus_Refined_Heart",
+          "triangles": 546,
+          "vertices": 505,
+          "minTriangleArea": 8.033535777940415e-06,
+          "minNormalLength": 0.9999998807907104,
+          "maxNormalLength": 1.0000001192092896,
+          "invertedAgainstNormals": 0
+        },
+        {
+          "material": "Lotus_Refined_Petals",
+          "triangles": 1936,
+          "vertices": 1254,
+          "minTriangleArea": 5.080952277560466e-06,
+          "minNormalLength": 0.5699342564030327,
+          "maxNormalLength": 1.0000000000000002,
+          "invertedAgainstNormals": 0
+        },
+        {
+          "material": "Lotus_Refined_Stem",
+          "triangles": 132,
+          "vertices": 87,
+          "minTriangleArea": 1.7237160136573948e-05,
+          "minNormalLength": 0.9999999403953552,
+          "maxNormalLength": 1.0000001192092896,
+          "invertedAgainstNormals": 0
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "parts": [
+        {
+          "material": "Lotus_Refined_Heart",
+          "triangles": 336,
+          "vertices": 295,
+          "minTriangleArea": 8.033535777940415e-06,
+          "minNormalLength": 0.9999998807907104,
+          "maxNormalLength": 1.0000001192092896,
+          "invertedAgainstNormals": 0
+        },
+        {
+          "material": "Lotus_Refined_Petals",
+          "triangles": 528,
+          "vertices": 440,
+          "minTriangleArea": 7.535593876933297e-05,
+          "minNormalLength": 0.5699342564030327,
+          "maxNormalLength": 1.0000000000000002,
+          "invertedAgainstNormals": 0
+        },
+        {
+          "material": "Lotus_Refined_Stem",
+          "triangles": 132,
+          "vertices": 87,
+          "minTriangleArea": 1.7237160136573948e-05,
+          "minNormalLength": 0.9999999403953552,
+          "maxNormalLength": 1.0000001192092896,
+          "invertedAgainstNormals": 0
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "parts": [
+        {
+          "material": "Lotus_Refined_Heart",
+          "triangles": 126,
+          "vertices": 85,
+          "minTriangleArea": 1.263209014723543e-05,
+          "minNormalLength": 0.9999999403953552,
+          "maxNormalLength": 1.0,
+          "invertedAgainstNormals": 0
+        },
+        {
+          "material": "Lotus_Refined_Petals",
+          "triangles": 264,
+          "vertices": 242,
+          "minTriangleArea": 0.0005970062561089321,
+          "minNormalLength": 0.5699342564030327,
+          "maxNormalLength": 1.0000000000000002,
+          "invertedAgainstNormals": 0
+        },
+        {
+          "material": "Lotus_Refined_Stem",
+          "triangles": 132,
+          "vertices": 87,
+          "minTriangleArea": 1.7237160136573948e-05,
+          "minNormalLength": 0.9999999403953552,
+          "maxNormalLength": 1.0000001192092896,
+          "invertedAgainstNormals": 0
+        }
+      ]
+    }
+  ],
+  "heartVerticalScale": 0.98,
+  "petalNormalScale": 0.6,
+  "petalSpecularFactor": 0.55,
+  "changes": [
+    "22 continuous cupped petal surfaces with recurved tips and mild deterministic asymmetry",
+    "Analytic smooth normals independent of LOD tessellation",
+    "Seed receptacle and stamens sit inside the flower bowl",
+    "Three real LODs; same petal angles and UV atlas cells in all levels"
+  ],
+  "intersectionScope": "Finite geometry, positive areas, winding and normals checked. No exhaustive whole-flower triangle intersection claim."
+}

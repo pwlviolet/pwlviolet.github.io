@@ -1,0 +1,198 @@
+{
+  "family": "house_04",
+  "assets": [
+    {
+      "id": "house_04",
+      "family": "house_04",
+      "rootNode": "house_04",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          -7.5,
+          0.05999838188290596,
+          -37.0
+        ],
+        "quaternion": [
+          0.0,
+          0.13954311609268188,
+          -6.0996230288878905e-09,
+          0.9902160167694092
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          0.9610554575920105,
+          -1.20798890890228e-08,
+          -0.27635565400123596,
+          0.0,
+          1.20798890890228e-08,
+          1.0,
+          -1.702318286334048e-09,
+          0.0,
+          0.27635565400123596,
+          -1.702318286334048e-09,
+          0.9610554575920105,
+          0.0,
+          -7.5,
+          0.05999838188290596,
+          -37.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 5000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/house_04/house_04_lod0.glb",
+          "textures": "embedded",
+          "triangles": 3428,
+          "vertices": 4707,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 2975672,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/house_04/house_04_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 1544,
+          "vertices": 2820,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 144052,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/house_04/house_04_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 613,
+          "vertices": 1272,
+          "primitives": 6,
+          "materials": 6,
+          "bytes": 70320,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "house_04__timber",
+      "role": "timber",
+      "maps": {
+        "ao": "textures/timber/ao.png",
+        "basecolor": "textures/timber/basecolor.png",
+        "height": "textures/timber/height.png",
+        "metallic": "textures/timber/metallic.png",
+        "normal": "textures/timber/normal.png",
+        "orm": "textures/timber/orm.png",
+        "roughness": "textures/timber/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_04__stone",
+      "role": "stone",
+      "maps": {
+        "ao": "textures/stone/ao.png",
+        "basecolor": "textures/stone/basecolor.png",
+        "height": "textures/stone/height.png",
+        "metallic": "textures/stone/metallic.png",
+        "normal": "textures/stone/normal.png",
+        "orm": "textures/stone/orm.png",
+        "roughness": "textures/stone/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_04__tile",
+      "role": "tile",
+      "maps": {
+        "ao": "textures/tile/ao.png",
+        "basecolor": "textures/tile/basecolor.png",
+        "height": "textures/tile/height.png",
+        "metallic": "textures/tile/metallic.png",
+        "normal": "textures/tile/normal.png",
+        "orm": "textures/tile/orm.png",
+        "roughness": "textures/tile/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_04__plaster",
+      "role": "plaster",
+      "maps": {
+        "ao": "textures/plaster/ao.png",
+        "basecolor": "textures/plaster/basecolor.png",
+        "height": "textures/plaster/height.png",
+        "metallic": "textures/plaster/metallic.png",
+        "normal": "textures/plaster/normal.png",
+        "orm": "textures/plaster/orm.png",
+        "roughness": "textures/plaster/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_04__paper",
+      "role": "paper",
+      "maps": {
+        "ao": "textures/paper/ao.png",
+        "basecolor": "textures/paper/basecolor.png",
+        "emissive": "textures/paper/emissive.png",
+        "height": "textures/paper/height.png",
+        "metallic": "textures/paper/metallic.png",
+        "normal": "textures/paper/normal.png",
+        "orm": "textures/paper/orm.png",
+        "roughness": "textures/paper/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "house_04__metal",
+      "role": "metal",
+      "maps": {
+        "ao": "textures/metal/ao.png",
+        "basecolor": "textures/metal/basecolor.png",
+        "height": "textures/metal/height.png",
+        "metallic": "textures/metal/metallic.png",
+        "normal": "textures/metal/normal.png",
+        "orm": "textures/metal/orm.png",
+        "roughness": "textures/metal/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

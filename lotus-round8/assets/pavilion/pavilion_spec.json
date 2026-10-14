@@ -1,0 +1,527 @@
+{
+  "revision": 6,
+  "units": "meters",
+  "upAxis": "Y",
+  "rootNode": "pavilion",
+  "poseAlreadyInGLB": true,
+  "pose": {
+    "position": [
+      -7.400000095367432,
+      0.6999998688697815,
+      -3.0
+    ],
+    "quaternion": [
+      0.0,
+      -0.059964004904031754,
+      2.6211097736705824e-09,
+      0.998200535774231
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      0.9928086400032043,
+      5.23278664843474e-09,
+      0.11971220374107361,
+      0.0,
+      -5.23278664843474e-09,
+      1.0,
+      -3.143441063002683e-10,
+      0.0,
+      -0.11971220374107361,
+      -3.143441063002683e-10,
+      0.9928086400032043,
+      0.0,
+      -7.400000095367432,
+      0.6999998688697815,
+      -3.0,
+      1.0
+    ]
+  },
+  "localBounds": {
+    "min": [
+      -3.905,
+      -1.75,
+      -3.672811
+    ],
+    "max": [
+      3.768069,
+      8.92,
+      3.672811
+    ],
+    "size": [
+      7.673069,
+      10.67,
+      7.345621
+    ]
+  },
+  "lightingAnchors": [
+    {
+      "name": "pavilion_lantern_0",
+      "assetId": "pavilion",
+      "localPosition": [
+        -1.74,
+        3.873,
+        1.74
+      ],
+      "worldPosition": [
+        -9.3357864,
+        4.5729999,
+        -1.4808122
+      ]
+    },
+    {
+      "name": "pavilion_lantern_1",
+      "assetId": "pavilion",
+      "localPosition": [
+        1.74,
+        3.873,
+        1.74
+      ],
+      "worldPosition": [
+        -5.8808123,
+        4.5729999,
+        -1.0642137
+      ]
+    },
+    {
+      "name": "pavilion_lantern_2",
+      "assetId": "pavilion",
+      "localPosition": [
+        -1.74,
+        3.873,
+        -1.74
+      ],
+      "worldPosition": [
+        -8.9191879,
+        4.5729999,
+        -4.9357863
+      ]
+    },
+    {
+      "name": "pavilion_lantern_3",
+      "assetId": "pavilion",
+      "localPosition": [
+        1.74,
+        3.873,
+        -1.74
+      ],
+      "worldPosition": [
+        -5.4642138,
+        4.5729999,
+        -4.5191878
+      ]
+    },
+    {
+      "name": "pavilion_fill",
+      "assetId": "pavilion",
+      "localPosition": [
+        0,
+        3.9,
+        0
+      ],
+      "worldPosition": [
+        -7.4000001,
+        4.5999999,
+        -3.0
+      ]
+    }
+  ],
+  "lods": [
+    {
+      "level": 0,
+      "file": "assets/pavilion/pavilion_lod0.glb",
+      "textures": "embedded",
+      "triangles": 24284,
+      "vertices": 33672,
+      "primitives": 6,
+      "materials": 6,
+      "bytes": 6868292,
+      "attributes": [
+        "COLOR_0",
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "level": 1,
+      "file": "assets/pavilion/pavilion_lod1.glb",
+      "textures": "relative external PNGs in same asset folder",
+      "triangles": 10916,
+      "vertices": 16309,
+      "primitives": 6,
+      "materials": 6,
+      "bytes": 793820,
+      "attributes": [
+        "COLOR_0",
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "level": 2,
+      "file": "assets/pavilion/pavilion_lod2.glb",
+      "textures": "relative external PNGs in same asset folder",
+      "triangles": 4452,
+      "vertices": 6389,
+      "primitives": 6,
+      "materials": 6,
+      "bytes": 318544,
+      "attributes": [
+        "COLOR_0",
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0"
+      ]
+    }
+  ],
+  "materialInventory": [
+    {
+      "family": "pavilion",
+      "name": "pavilion__timber",
+      "role": "timber",
+      "maps": {
+        "ao": {
+          "file": "assets/pavilion/textures/timber/ao.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 202881
+        },
+        "basecolor": {
+          "file": "assets/pavilion/textures/timber/basecolor.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 565557
+        },
+        "height": {
+          "file": "assets/pavilion/textures/timber/height.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "I;16",
+          "bytes": 1346974
+        },
+        "metallic": {
+          "file": "assets/pavilion/textures/timber/metallic.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 1097
+        },
+        "normal": {
+          "file": "assets/pavilion/textures/timber/normal.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 335716
+        },
+        "orm": {
+          "file": "assets/pavilion/textures/timber/orm.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 514432
+        },
+        "roughness": {
+          "file": "assets/pavilion/textures/timber/roughness.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 252290
+        }
+      }
+    },
+    {
+      "family": "pavilion",
+      "name": "pavilion__stone",
+      "role": "stone",
+      "maps": {
+        "ao": {
+          "file": "assets/pavilion/textures/stone/ao.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 84734
+        },
+        "basecolor": {
+          "file": "assets/pavilion/textures/stone/basecolor.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 938237
+        },
+        "height": {
+          "file": "assets/pavilion/textures/stone/height.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "I;16",
+          "bytes": 1606317
+        },
+        "metallic": {
+          "file": "assets/pavilion/textures/stone/metallic.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 1097
+        },
+        "normal": {
+          "file": "assets/pavilion/textures/stone/normal.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 618396
+        },
+        "orm": {
+          "file": "assets/pavilion/textures/stone/orm.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 355559
+        },
+        "roughness": {
+          "file": "assets/pavilion/textures/stone/roughness.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 183332
+        }
+      }
+    },
+    {
+      "family": "pavilion",
+      "name": "pavilion__tile",
+      "role": "tile",
+      "maps": {
+        "ao": {
+          "file": "assets/pavilion/textures/tile/ao.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 3182
+        },
+        "basecolor": {
+          "file": "assets/pavilion/textures/tile/basecolor.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 573775
+        },
+        "height": {
+          "file": "assets/pavilion/textures/tile/height.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "I;16",
+          "bytes": 1250468
+        },
+        "metallic": {
+          "file": "assets/pavilion/textures/tile/metallic.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 1097
+        },
+        "normal": {
+          "file": "assets/pavilion/textures/tile/normal.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 226673
+        },
+        "orm": {
+          "file": "assets/pavilion/textures/tile/orm.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGB",
+          "bytes": 263910
+        },
+        "roughness": {
+          "file": "assets/pavilion/textures/tile/roughness.png",
+          "width": 1024,
+          "height": 1024,
+          "mode": "L",
+          "bytes": 190402
+        }
+      }
+    },
+    {
+      "family": "pavilion",
+      "name": "pavilion__tile_end",
+      "role": "tile_end",
+      "maps": {
+        "ao": {
+          "file": "assets/pavilion/textures/tile_end/ao.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 19437
+        },
+        "basecolor": {
+          "file": "assets/pavilion/textures/tile_end/basecolor.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 186321
+        },
+        "height": {
+          "file": "assets/pavilion/textures/tile_end/height.png",
+          "width": 512,
+          "height": 512,
+          "mode": "I;16",
+          "bytes": 353564
+        },
+        "metallic": {
+          "file": "assets/pavilion/textures/tile_end/metallic.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 334
+        },
+        "normal": {
+          "file": "assets/pavilion/textures/tile_end/normal.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 148529
+        },
+        "orm": {
+          "file": "assets/pavilion/textures/tile_end/orm.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 102715
+        },
+        "roughness": {
+          "file": "assets/pavilion/textures/tile_end/roughness.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 56771
+        }
+      }
+    },
+    {
+      "family": "pavilion",
+      "name": "pavilion__metal",
+      "role": "metal",
+      "maps": {
+        "ao": {
+          "file": "assets/pavilion/textures/metal/ao.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 5025
+        },
+        "basecolor": {
+          "file": "assets/pavilion/textures/metal/basecolor.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 21246
+        },
+        "height": {
+          "file": "assets/pavilion/textures/metal/height.png",
+          "width": 512,
+          "height": 512,
+          "mode": "I;16",
+          "bytes": 325701
+        },
+        "metallic": {
+          "file": "assets/pavilion/textures/metal/metallic.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 24140
+        },
+        "normal": {
+          "file": "assets/pavilion/textures/metal/normal.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 36087
+        },
+        "orm": {
+          "file": "assets/pavilion/textures/metal/orm.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 123502
+        },
+        "roughness": {
+          "file": "assets/pavilion/textures/metal/roughness.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 58099
+        }
+      }
+    },
+    {
+      "family": "pavilion",
+      "name": "pavilion__paper",
+      "role": "paper",
+      "maps": {
+        "ao": {
+          "file": "assets/pavilion/textures/paper/ao.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 1301
+        },
+        "basecolor": {
+          "file": "assets/pavilion/textures/paper/basecolor.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 57116
+        },
+        "emissive": {
+          "file": "assets/pavilion/textures/paper/emissive.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 45537
+        },
+        "height": {
+          "file": "assets/pavilion/textures/paper/height.png",
+          "width": 512,
+          "height": 512,
+          "mode": "I;16",
+          "bytes": 152435
+        },
+        "metallic": {
+          "file": "assets/pavilion/textures/paper/metallic.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 334
+        },
+        "normal": {
+          "file": "assets/pavilion/textures/paper/normal.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 51127
+        },
+        "orm": {
+          "file": "assets/pavilion/textures/paper/orm.png",
+          "width": 512,
+          "height": 512,
+          "mode": "RGB",
+          "bytes": 65097
+        },
+        "roughness": {
+          "file": "assets/pavilion/textures/paper/roughness.png",
+          "width": 512,
+          "height": 512,
+          "mode": "L",
+          "bytes": 48542
+        }
+      }
+    }
+  ]
+}

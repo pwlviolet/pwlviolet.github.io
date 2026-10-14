@@ -1,0 +1,117 @@
+{
+  "family": "background",
+  "assets": [
+    {
+      "id": "background",
+      "family": "background",
+      "rootNode": "background",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          0.0,
+          -1.4861872159599443e-06,
+          -34.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -1.4861872159599443e-06,
+          -34.0,
+          1.0
+        ]
+      },
+      "budgetLod0": 13000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/background/background_lod0.glb",
+          "textures": "embedded",
+          "triangles": 12096,
+          "vertices": 8909,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 1125712,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/background/background_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 5564,
+          "vertices": 4792,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 246344,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/background/background_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 2418,
+          "vertices": 2540,
+          "primitives": 1,
+          "materials": 1,
+          "bytes": 128380,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "background__rock",
+      "role": "rock",
+      "maps": {
+        "ao": "textures/rock/ao.png",
+        "basecolor": "textures/rock/basecolor.png",
+        "height": "textures/rock/height.png",
+        "metallic": "textures/rock/metallic.png",
+        "normal": "textures/rock/normal.png",
+        "orm": "textures/rock/orm.png",
+        "roughness": "textures/rock/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}

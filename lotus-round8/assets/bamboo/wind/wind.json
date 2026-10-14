@@ -1,0 +1,27 @@
+{
+  "attribute": "_WIND",
+  "threeAttribute": "_wind",
+  "componentType": "FLOAT",
+  "itemSize": 4,
+  "R": "normalized height squared; root fixed",
+  "G": "branch flex weight",
+  "B": "leaf-tip flutter weight",
+  "A": "deterministic phase in [0,1]",
+  "noise": "gust_noise.png",
+  "shader": "../../../three/wind.js",
+  "uniforms": {
+    "strength": 0.65,
+    "direction": [
+      1,
+      0.3
+    ],
+    "speed": 1
+  },
+  "maxDisplacementMetersAtStrength1": 0.48,
+  "notes": [
+    "Vertex data is embedded in each bamboo GLB.",
+    "The GLB alone is static. Attach wind.js in Three.js.",
+    "Depth and point-shadow materials receive the same deformation.",
+    "Main-bend normals use an analytic inverse-transpose Jacobian; leaf flutter normals are approximate."
+  ]
+}

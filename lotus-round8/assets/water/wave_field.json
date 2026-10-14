@@ -1,0 +1,12 @@
+{
+  "worldRepeatMeters": 24,
+  "resolution": [
+    1024,
+    1024
+  ],
+  "heightStdMeters": 0.008,
+  "heightDecode": "(value/65535 - 0.5) * 0.08 meters",
+  "normal": "OpenGL +Y, linear",
+  "construction": "Band-limited random Fourier height spectrum; no light or reflection baked in",
+  "shader": "../../three/pond-surface.js"
+}

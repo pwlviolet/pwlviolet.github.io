@@ -1,0 +1,182 @@
+{
+  "family": "boat",
+  "assets": [
+    {
+      "id": "boat",
+      "family": "boat",
+      "rootNode": "boat",
+      "kind": "static",
+      "origin": "GLB root already contains original scene pose",
+      "pose": {
+        "position": [
+          5.849999904632568,
+          1.1802075050582062e-07,
+          2.700000047683716
+        ],
+        "quaternion": [
+          0.0,
+          0.9711483716964722,
+          -4.245024243232365e-08,
+          0.2384760081768036
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          -0.8862583637237549,
+          -2.0246728738015918e-08,
+          -0.4631911814212799,
+          0.0,
+          2.0246728738015918e-08,
+          1.0,
+          -8.245096694281528e-08,
+          0.0,
+          0.4631911814212799,
+          -8.245096694281528e-08,
+          -0.8862583637237549,
+          0.0,
+          5.849999904632568,
+          1.1802075050582062e-07,
+          2.700000047683716,
+          1.0
+        ]
+      },
+      "budgetLod0": 5000,
+      "lods": [
+        {
+          "level": 0,
+          "file": "assets/boat/boat_lod0.glb",
+          "textures": "embedded",
+          "triangles": 3414,
+          "vertices": 4386,
+          "primitives": 5,
+          "materials": 5,
+          "bytes": 4173212,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 1,
+          "file": "assets/boat/boat_lod1.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 1540,
+          "vertices": 2422,
+          "primitives": 5,
+          "materials": 5,
+          "bytes": 124760,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "level": 2,
+          "file": "assets/boat/boat_lod2.glb",
+          "textures": "relative external PNGs in same asset folder",
+          "triangles": 611,
+          "vertices": 1070,
+          "primitives": 5,
+          "materials": 5,
+          "bytes": 59672,
+          "attributes": [
+            "COLOR_0",
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "boat__timber",
+      "role": "timber",
+      "maps": {
+        "ao": "textures/timber/ao.png",
+        "basecolor": "textures/timber/basecolor.png",
+        "height": "textures/timber/height.png",
+        "metallic": "textures/timber/metallic.png",
+        "normal": "textures/timber/normal.png",
+        "orm": "textures/timber/orm.png",
+        "roughness": "textures/timber/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "boat__reed",
+      "role": "reed",
+      "maps": {
+        "ao": "textures/reed/ao.png",
+        "basecolor": "textures/reed/basecolor.png",
+        "height": "textures/reed/height.png",
+        "metallic": "textures/reed/metallic.png",
+        "normal": "textures/reed/normal.png",
+        "orm": "textures/reed/orm.png",
+        "roughness": "textures/reed/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "boat__rope",
+      "role": "rope",
+      "maps": {
+        "ao": "textures/rope/ao.png",
+        "basecolor": "textures/rope/basecolor.png",
+        "height": "textures/rope/height.png",
+        "metallic": "textures/rope/metallic.png",
+        "normal": "textures/rope/normal.png",
+        "orm": "textures/rope/orm.png",
+        "roughness": "textures/rope/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "boat__metal",
+      "role": "metal",
+      "maps": {
+        "ao": "textures/metal/ao.png",
+        "basecolor": "textures/metal/basecolor.png",
+        "height": "textures/metal/height.png",
+        "metallic": "textures/metal/metallic.png",
+        "normal": "textures/metal/normal.png",
+        "orm": "textures/metal/orm.png",
+        "roughness": "textures/metal/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    },
+    {
+      "name": "boat__paper",
+      "role": "paper",
+      "maps": {
+        "ao": "textures/paper/ao.png",
+        "basecolor": "textures/paper/basecolor.png",
+        "emissive": "textures/paper/emissive.png",
+        "height": "textures/paper/height.png",
+        "metallic": "textures/paper/metallic.png",
+        "normal": "textures/paper/normal.png",
+        "orm": "textures/paper/orm.png",
+        "roughness": "textures/paper/roughness.png"
+      },
+      "colorSpace": "basecolor/emissive sRGB; all data maps linear",
+      "normalConvention": "OpenGL +Y",
+      "orm": "R AO / G roughness / B metallic"
+    }
+  ]
+}
