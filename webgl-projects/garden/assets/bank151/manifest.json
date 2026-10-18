@@ -1,0 +1,140 @@
+{
+  "samples": 12,
+  "maxDistance": 0.75,
+  "originOffset": 0.01,
+  "method": "cosine hemisphere rays against same rock triangle BVH + sampled terrain; indirect AO only",
+  "rocks": [
+    {
+      "name": "porous_limestone_0",
+      "file": "porous_limestone_0.bin",
+      "positionFile": "porous_limestone_0_positions.bin",
+      "vertices": 25572,
+      "positionSHA256": "6d28d7e45627dd1f90b7fa2958f9d34b43b1c46f37f552209448b8055e1b4cfc",
+      "min": 0,
+      "max": 1,
+      "mean": 0.4626316160751803,
+      "uniqueSamples": 4258
+    },
+    {
+      "name": "porous_limestone_1",
+      "file": "porous_limestone_1.bin",
+      "positionFile": "porous_limestone_1_positions.bin",
+      "vertices": 22734,
+      "positionSHA256": "c4148c015fc617f95b28eb321bd6b7f2ea09fc4369fbe3111f4a944dadc8895c",
+      "min": 0,
+      "max": 1,
+      "mean": 0.4376004153750882,
+      "uniqueSamples": 3782
+    },
+    {
+      "name": "porous_limestone_2",
+      "file": "porous_limestone_2.bin",
+      "positionFile": "porous_limestone_2_positions.bin",
+      "vertices": 44415,
+      "positionSHA256": "cee06a4383b32301151400d416bc158ea6a1526d412817f06c11921892d03672",
+      "min": 0,
+      "max": 1,
+      "mean": 0.4084888297320504,
+      "uniqueSamples": 7399
+    },
+    {
+      "name": "porous_limestone_3",
+      "file": "porous_limestone_3.bin",
+      "positionFile": "porous_limestone_3_positions.bin",
+      "vertices": 37116,
+      "positionSHA256": "3fd9da112a5c331e91f0c2943618d5e346990a3ca3ff750f6f4c3f8e4b1fee92",
+      "min": 0,
+      "max": 1,
+      "mean": 0.46046153130936607,
+      "uniqueSamples": 6184
+    },
+    {
+      "name": "porous_limestone_4",
+      "file": "porous_limestone_4.bin",
+      "positionFile": "porous_limestone_4_positions.bin",
+      "vertices": 31485,
+      "positionSHA256": "b9c2f41b5ab4ca819a9786137ef4bf4f2b7833c31bbf0ccdeb513515ca6af19c",
+      "min": 0,
+      "max": 1,
+      "mean": 0.4044687323873491,
+      "uniqueSamples": 5246
+    },
+    {
+      "name": "porous_limestone_5",
+      "file": "porous_limestone_5.bin",
+      "positionFile": "porous_limestone_5_positions.bin",
+      "vertices": 40323,
+      "positionSHA256": "fff9d0b8e256caa0e29f9eba8b4490810e0729539032ba616eb6a1f573568c52",
+      "min": 0,
+      "max": 1,
+      "mean": 0.3546069411074203,
+      "uniqueSamples": 6714
+    },
+    {
+      "name": "porous_limestone_6",
+      "file": "porous_limestone_6.bin",
+      "positionFile": "porous_limestone_6_positions.bin",
+      "vertices": 52800,
+      "positionSHA256": "73c202a35b7007366b823034aad82f18c46f0086e3ceacd33a7e917f7d774322",
+      "min": 0,
+      "max": 1,
+      "mean": 0.36737551990493167,
+      "uniqueSamples": 8795
+    },
+    {
+      "name": "porous_limestone_7",
+      "file": "porous_limestone_7.bin",
+      "positionFile": "porous_limestone_7_positions.bin",
+      "vertices": 40644,
+      "positionSHA256": "b2bc8b47e6ed25d34ba54f7a7b074e7138bb0ed2653b247d9ad4261a0385d3ae",
+      "min": 0,
+      "max": 1,
+      "mean": 0.49652149414041774,
+      "uniqueSamples": 6773
+    },
+    {
+      "name": "porous_limestone_8",
+      "file": "porous_limestone_8.bin",
+      "positionFile": "porous_limestone_8_positions.bin",
+      "vertices": 27645,
+      "positionSHA256": "a4411dceb284fbe69ee5793257e2397861038cd0c9d95b593dc416b9a6a104b6",
+      "min": 0,
+      "max": 1,
+      "mean": 0.3784778299093195,
+      "uniqueSamples": 4606
+    },
+    {
+      "name": "porous_limestone_9",
+      "file": "porous_limestone_9.bin",
+      "positionFile": "porous_limestone_9_positions.bin",
+      "vertices": 41805,
+      "positionSHA256": "2683f0d7fda1b7a5d81df3a1273d7e71aca6ce2bee07ad71c188f0223108eb6a",
+      "min": 0,
+      "max": 1,
+      "mean": 0.427439723646904,
+      "uniqueSamples": 6964
+    },
+    {
+      "name": "porous_limestone_10",
+      "file": "porous_limestone_10.bin",
+      "positionFile": "porous_limestone_10_positions.bin",
+      "vertices": 33630,
+      "positionSHA256": "4ab77cf067ee18e68d945fdb04c5a1393ebc0af2f93f2b52b0c747bc82366f92",
+      "min": 0,
+      "max": 1,
+      "mean": 0.3500688577542227,
+      "uniqueSamples": 5598
+    },
+    {
+      "name": "porous_limestone_11",
+      "file": "porous_limestone_11.bin",
+      "positionFile": "porous_limestone_11_positions.bin",
+      "vertices": 41205,
+      "positionSHA256": "e7f4e2939f19c609c1772296f8bc62f753aed14d694ec7e181e2e90b94c17f88",
+      "min": 0,
+      "max": 1,
+      "mean": 0.3948604181388609,
+      "uniqueSamples": 6861
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "units": "meters",
+  "upAxis": "Y",
+  "width": 513,
+  "height": 577,
+  "xMin": -32,
+  "xMax": 32,
+  "zMin": -50,
+  "zMax": 22,
+  "heightMin": -1.4,
+  "heightMax": 1.6,
+  "waterLevel": -0.022,
+  "rowOrder": "row 0 is zMin; columns increase toward +X",
+  "encoding": "uint16 little-endian, normalized /65535",
+  "heightPNG": "height.png",
+  "heightBinary": "height.r16",
+  "defaultSegments": [
+    128,
+    144
+  ],
+  "maps": {
+    "baseColor": "basecolor.png",
+    "normalDetail": "normal_detail.png",
+    "orm": "orm.png",
+    "splat": "splat.png",
+    "shoreWetness": "shore_wetness.png"
+  },
+  "splatChannels": {
+    "R": "grass/moss",
+    "G": "dry soil",
+    "B": "rock",
+    "A": "wet mud"
+  },
+  "notes": [
+    "One height per X/Z; bridges, rocks and overhangs are separate meshes.",
+    "R16 avoids Canvas 16-bit PNG precision loss.",
+    "Mesh normals contain the slope; normal_detail contains only material detail."
+  ],
+  "mirroredLayout": true,
+  "layoutRevision": 5,
+  "bridgeApproachCenters": [
+    [
+      -8.65,
+      25
+    ],
+    [
+      12.65,
+      25
+    ]
+  ]
+}
