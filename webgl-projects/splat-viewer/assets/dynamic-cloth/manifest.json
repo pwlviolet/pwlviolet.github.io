@@ -1,0 +1,7 @@
+{
+  "name": "动态绸布 · 程序生成",
+  "fps": 24,
+  "frames": 48,
+  "splatsPerFrame": 2880,
+  "description": "逐帧高斯形变技术样例，不是实拍重建或研究模型权重。"
+}
